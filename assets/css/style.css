@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0f4c75;
-  background-image: url("../img/bg2.png");
+  /* background-image: url("../img/bg2.png"); */
 }
 
 a {
@@ -371,6 +371,7 @@ line-height: 100px;
 #hero {
   width: 100%;
   padding: 3% 0 0 0;
+   background-image: url("../img/bg2.png");
 
  /* background-image: url("../img/bg2.png"); */
  }
@@ -627,6 +628,8 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+
+
 .clients {
   padding: 0;
 }
@@ -658,6 +661,10 @@ section {
 /* .about .aboutSingle {
   text-align: c;
 } */
+
+#about {
+    background:rgba(44, 130, 201, 0.1);
+}
 
 .about .content {
   padding: 30px 0;
@@ -846,6 +853,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio{
+  background:rgba(44, 130, 201, 0.1);
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
