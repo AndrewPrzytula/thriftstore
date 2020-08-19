@@ -64,9 +64,21 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: #c4e7fe;
-  opacity: 83%;
+  background:rgba(44, 130, 201, 0.9);
 
+
+}
+
+#header a:hover {
+  color: #f25ca2;
+
+
+}
+
+#header a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 #header .logo h1 {
@@ -94,6 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   max-height: 40px;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -797,6 +810,10 @@ section {
   color: #555;
 }
 
+#features .btn{
+  color: #fff;
+}
+
 .features .content + .content {
   margin-top: 50px;
 }
@@ -1412,7 +1429,7 @@ background-image: url("../img/bg2.png");
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(26, 46, 64, 0.85);
+  background:rgba(44, 130, 201, 0.9);
   z-index: 1;
 }
 
@@ -1420,7 +1437,7 @@ background-image: url("../img/bg2.png");
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 80px 0;
+  padding: 28px 0;
 }
 
 #footer .footer-top h3 {
@@ -1516,7 +1533,8 @@ background-image: url("../img/bg2.png");
 
 #footer .copyright {
   text-align: center;
-  float: left;
+  padding-bottom: 15px;
+
 }
 
 #footer .credits {
